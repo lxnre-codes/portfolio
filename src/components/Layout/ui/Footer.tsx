@@ -71,7 +71,7 @@ const Footer = () => {
                 <Icon slug={icons.siX.slug} className="w-6 h-6" />
               </a>
               <a
-                href="mailto:lanrepopson0@gmail.com"
+                href="mailto:admin@lanrecodes.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

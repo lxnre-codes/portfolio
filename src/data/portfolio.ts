@@ -5,7 +5,7 @@ export const portfolioData: IPortfolioData = {
     name: "LANRE POPOOLA",
     title: "Software Engineer",
     phone: "+44-7442-101-811",
-    emails: ["lanrepopson0@gmail.com", "admin@lanrecodes.com"],
+    emails: ["admin@lanrecodes.com", "lanre@lanrecodes.com"],
     website: "https://lanrecodes.com",
     github: "https://github.com/lxnre-codes",
     twitter: "https://x.com/lxnre_codes",

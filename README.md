@@ -135,4 +135,4 @@ If you found this helpful, please:
 
 ---
 
-Built with 💻 by [Lanre Popoola](https://lanrecodes.com)
+Built with 💻 & 🫶 by [Lanre Popoola](https://lanrecodes.com)

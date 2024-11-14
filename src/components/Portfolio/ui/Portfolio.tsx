@@ -38,7 +38,7 @@ const Portfolio: React.FC = () => {
 
         <div className="container mx-auto px-4 py-8 md:py-16 relative">
           <div className="flex flex-col lg:flex-row items-center gap-8">
-            {/* Profile Image with Animation */}
+            {/* Profile Image with Animation - remains unchanged */}
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -57,7 +57,7 @@ const Portfolio: React.FC = () => {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="text-3xl md:text-4xl lg:text-6xl font-bold mb-3 font-spaceGrotesk tracking-tight text-white"
+                className="text-2xl font-extrabold md:font-bold md:text-4xl lg:text-6xl mb-3 font-spaceGrotesk tracking-tight text-white"
               >
                 {personalInfo.name}
               </motion.h1>
@@ -65,7 +65,7 @@ const Portfolio: React.FC = () => {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="text-xl md:text-2xl lg:text-3xl mb-6 font-outfit text-gray-300"
+                className="text-lg font-extrabold md:font-normal md:text-2xl lg:text-3xl mb-6 font-outfit text-gray-300"
               >
                 {personalInfo.title}
               </motion.h2>

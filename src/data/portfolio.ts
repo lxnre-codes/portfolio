@@ -61,14 +61,10 @@ export const portfolioData: IPortfolioData = {
       ],
     },
     {
-      company: "Creo Dao",
+      company: "0ximmortals - Yolo dao",
       position: "Web3 Developer - Freelance",
-      period: "2021-10 to 2022-11",
-      details: [
-        "Wrote gas efficient NFTs, ERC20s and token staking/farming smart contracts",
-        "Built frontend UIs",
-        "Integrated web3 functionalities into frontend",
-      ],
+      period: "2022-01 to 2022-02",
+      details: ["Integrated web3 functionalities into frontend & servers"],
     },
     {
       company: "0ximmortals - Doomsdayx",
@@ -80,10 +76,14 @@ export const portfolioData: IPortfolioData = {
       ],
     },
     {
-      company: "0ximmortals - Yolo dao",
+      company: "Creo Dao",
       position: "Web3 Developer - Freelance",
-      period: "2022-01 to 2022-02",
-      details: ["Integrated web3 functionalities into frontend & servers"],
+      period: "2021-10 to 2022-11",
+      details: [
+        "Wrote gas efficient NFTs, ERC20s and token staking/farming smart contracts",
+        "Built frontend UIs",
+        "Integrated web3 functionalities into frontend",
+      ],
     },
   ],
   education: [

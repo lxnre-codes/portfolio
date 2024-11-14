@@ -13,6 +13,7 @@
     "@fontsource-variable/outfit": "^5.1.0",
     "@fontsource-variable/space-grotesk": "^5.1.0",
     "framer-motion": "^11.11.15",
+    "lucide-react": "^0.456.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.5",

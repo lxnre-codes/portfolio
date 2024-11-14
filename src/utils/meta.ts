@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "lanres-portfolio",
   title: "Lanre Popoola - Software Engineer",
   description:
-    "Here's my digital garden, where I grow my thoughts and projects.",
+    "Here's my digital garden, where I grow my thoughts and projects. Also an extension of my resume.",
   default_image: "/images/profile.png", // Updated path
   url: "https://lanrecodes.com",
   theme_color: "#1a1a1a",

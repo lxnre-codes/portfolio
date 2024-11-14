@@ -37,7 +37,7 @@ export const portfolioData: IPortfolioData = {
       company: "BeSafe LLC",
       position: "Founder | CEO | CTO",
       period: "2024-10 to present",
-      details: ["Building an amazing product for the whole of humanity."],
+      details: ["Building an amazing product for the world."],
     },
     {
       company: "Oximmortals - Shopthru Inc",

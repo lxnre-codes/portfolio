@@ -1,7 +1,4 @@
-const baseUrl =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"
-    : "https://lanrecodes.com";
+const baseUrl = "https://lanrecodes.com";
 
 export const siteConfig = {
   name: "lanres-portfolio",

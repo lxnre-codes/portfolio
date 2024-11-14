@@ -8,9 +8,9 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Home", path: "/#" },
-    { name: "Thoughts", path: "/thoughts" },
-    { name: "Articles", path: "/articles" },
-    { name: "Projects", path: "/projects" },
+    { name: "Thoughts", path: "/thoughts#" },
+    { name: "Articles", path: "/articles#" },
+    { name: "Projects", path: "/projects#" },
   ];
 
   const menuVariants = {

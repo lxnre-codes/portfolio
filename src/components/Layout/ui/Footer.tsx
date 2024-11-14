@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Icon from "@/components/Icon";
 import * as icons from "simple-icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
 
   return (
     <footer className="bg-black text-white">
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-bold font-spaceGrotesk">LANRE.CODES</h3>
             <p className="text-gray-400 font-outfit">
-              Building amazing things with code and creativity.
+              Building amazing stuffs with code and creativity.
             </p>
           </div>
 
@@ -23,6 +24,22 @@ const Footer = () => {
               Quick Links
             </h3>
             <div className="space-y-2">
+              {/* scroll to top if page is home*/}
+              {location.pathname === "/" ? (
+                <a
+                  href="#"
+                  className="block text-gray-400 hover:text-white transition-colors font-outfit"
+                >
+                  Home
+                </a>
+              ) : (
+                <Link
+                  to="/"
+                  className="block text-gray-400 hover:text-white transition-colors font-outfit"
+                >
+                  Home
+                </Link>
+              )}
               <Link
                 to="/thoughts"
                 className="block text-gray-400 hover:text-white transition-colors font-outfit"
@@ -63,6 +80,14 @@ const Footer = () => {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Icon slug={icons.siX.slug} className="w-6 h-6" />
+              </a>
+              <a
+                href="mailto:lanrepopson0@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Icon slug={icons.siGmail.slug} className="w-6 h-6" />
               </a>
             </div>
           </div>

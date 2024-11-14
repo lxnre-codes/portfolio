@@ -18,6 +18,9 @@ const Experience = ({ experience }: ExperienceProps) => {
           <motion.div
             key={index}
             variants={itemVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
             className="border border-gray-200 p-4 md:p-6 rounded-lg hover:border-gray-400 transition-colors"
           >
             <div className="flex items-center gap-2 mb-2">

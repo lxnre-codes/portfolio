@@ -17,6 +17,7 @@ export const portfolioData: IPortfolioData = {
     "Typescript",
     "Web3 + Solidity",
     "Node.js, Bun",
+    "React, Next.js",
     "Databases - Mongodb, SQL",
     "Database design & management",
     "E-commerce development",

@@ -1,10 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Icon from "@/components/Icon";
 import * as icons from "simple-icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const location = useLocation();
 
   return (
     <footer className="bg-black text-white">
@@ -24,36 +23,26 @@ const Footer = () => {
               Quick Links
             </h3>
             <div className="space-y-2">
-              {/* scroll to top if page is home*/}
-              {location.pathname === "/" ? (
-                <a
-                  href="#"
-                  className="block text-gray-400 hover:text-white transition-colors font-outfit"
-                >
-                  Home
-                </a>
-              ) : (
-                <Link
-                  to="/"
-                  className="block text-gray-400 hover:text-white transition-colors font-outfit"
-                >
-                  Home
-                </Link>
-              )}
               <Link
-                to="/thoughts"
+                to="/#"
+                className="block text-gray-400 hover:text-white transition-colors font-outfit"
+              >
+                Home
+              </Link>
+              <Link
+                to="/thoughts#"
                 className="block text-gray-400 hover:text-white transition-colors font-outfit"
               >
                 Thoughts
               </Link>
               <Link
-                to="/articles"
+                to="/articles#"
                 className="block text-gray-400 hover:text-white transition-colors font-outfit"
               >
                 Articles
               </Link>
               <Link
-                to="/projects"
+                to="/projects#"
                 className="block text-gray-400 hover:text-white transition-colors font-outfit"
               >
                 Projects

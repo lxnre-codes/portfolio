@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/#" },
     { name: "Thoughts", path: "/thoughts" },
     { name: "Articles", path: "/articles" },
     { name: "Projects", path: "/projects" },

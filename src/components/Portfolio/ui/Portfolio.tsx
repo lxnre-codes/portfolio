@@ -1,6 +1,6 @@
 import React from "react";
 import * as icons from "simple-icons";
-import { Globe, Phone } from "lucide-react";
+import { Globe } from "lucide-react";
 import { motion } from "framer-motion";
 import Icon from "@/components/Icon";
 import { portfolioData } from "@/data/portfolio";
@@ -126,15 +126,6 @@ const Portfolio: React.FC = () => {
                     </span>
                   </motion.p>
                 ))}
-                <motion.p
-                  className="text-gray-300 flex items-center justify-center lg:justify-start gap-2 md:gap-3 text-base md:text-lg"
-                  variants={itemVariants}
-                >
-                  <Phone className="w-4 md:w-5 h-4 md:h-5" />
-                  <span className="font-outfit hover:text-gray-100 transition-colors">
-                    {personalInfo.phone}
-                  </span>
-                </motion.p>
               </motion.div>
 
               {/* Summary */}
